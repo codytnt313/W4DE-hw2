@@ -1,0 +1,106 @@
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #006600; /* Dark green */
+  color: white;
+  padding: 20px;
+}
+
+/* Style the nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #339966; /* Your green color */
+  padding: 15px;
+  width: 90%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  width: 70px;
+  height: auto;
+}
+
+/* Style the main content */
+main {
+  background-color: #f2f2f2; /* Light gray background */
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #006600; /* Match header (dark green) */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style list items */
+li {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Style the h1 heading */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 2.5em;
+  color: white; /* Keep original */
+  margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
